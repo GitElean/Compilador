@@ -1,3 +1,8 @@
+#include <iostream>
+#include <string>
+#include "compilador/intfixToPostfix.h"
+#include "compilador/regexToAFN.h"
+
 int main(int argc, char const *argv[])
 {
     /*
