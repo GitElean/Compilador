@@ -16,7 +16,7 @@ public:
         std::stack<AFNState> states;
         std::unordered_set<char> alphabet;
         for (char c : postfix_regex)
-        {
+        {//stack
             switch (c)
             {
             case '|':
